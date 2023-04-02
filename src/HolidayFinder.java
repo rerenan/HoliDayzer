@@ -36,7 +36,7 @@ public class HolidayFinder {
     public void printAllHollidays() {
         for (int i = 0; i < allHolidays.size(); i++) {
             Holiday holiday = allHolidays.get(i);
-            Logger.println(holiday.getDate() + " => " + holiday.getName());
+            System.out.println(holiday.getDate() + " => " + holiday.getName());
         }
     }
 
